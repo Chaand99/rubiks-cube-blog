@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>How to Solve a Rubik's Cube | Beginner's Guide</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">🧩 CubeGuide</div>
+
+            <div class="nav-links">
+                <a href="#introduction">Introduction</a>
+                <a href="#basics">Basics</a>
+                <a href="#method">Solving Method</a>
+                <a href="#notation">Notation</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-title">BEGINNER'S GUIDE</p>
+
+            <h1>How to Solve a<br>3×3 Rubik's Cube</h1>
+
+            <p>
+                Learn the beginner-friendly layer-by-layer method
+                and solve your first Rubik's Cube step by step.
+            </p>
+
+            <a href="#method" class="button">Start Learning ↓</a>
+
+        </div>
+
+        <div class="cube-placeholder">
+    <img src="images/scambled.jpg"
+         alt="Scrambled Rubik's Cube"
+         class="hero-cube">
+</div>
+
+    </section>
+
+
+    <!-- Introduction -->
+    <section id="introduction" class="section">
+
+        <p class="section-label">01 — INTRODUCTION</p>
+
+        <h2>What is a Rubik's Cube?</h2>
+
+        <p>
+            The Rubik's Cube is a three-dimensional combination puzzle
+            invented by Hungarian professor Ernő Rubik. A standard 3×3
+            cube has six faces, each containing nine coloured squares.
+        </p>
+
+        <p>
+            The objective is simple: mix up the cube and then rearrange
+            the pieces until each face contains only one colour.
+        </p>
+
+        <div class="info-box">
+            <strong>Our goal:</strong>
+            Solve the cube layer by layer, starting with the white face
+            and finishing with the yellow face.
+        </div>
+
+    </section>
+
+
+    <!-- Cube Basics -->
+    <section id="basics" class="section light-section">
+
+        <p class="section-label">02 — CUBE BASICS</p>
+
+        <h2>Know Your Cube</h2>
+
+        <p>
+            Before solving the cube, it is important to understand
+            the three types of pieces.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="card-icon">●</div>
+                <h3>Center Pieces</h3>
+                <p>
+                    The six center pieces determine the colour of each
+                    face. They do not change their position relative
+                    to each other.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">◆</div>
+                <h3>Edge Pieces</h3>
+                <p>
+                    Edge pieces have two colours. A 3×3 cube contains
+                    twelve edge pieces.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">◆</div>
+                <h3>Corner Pieces</h3>
+                <p>
+                    Corner pieces have three colours. There are eight
+                    corners on a standard 3×3 cube.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Notation -->
+    <section id="notation" class="section">
+
+        <p class="section-label">03 — BASIC NOTATION</p>
+
+        <h2>Understanding Cube Moves</h2>
+
+        <p>
+            Rubik's Cube algorithms use letters to describe which face
+            should be turned.
+        </p>
+
+        <div class="notation-grid">
+
+            <div><strong>R</strong><span>Right</span></div>
+            <div><strong>L</strong><span>Left</span></div>
+            <div><strong>U</strong><span>Up</span></div>
+            <div><strong>D</strong><span>Down</span></div>
+            <div><strong>F</strong><span>Front</span></div>
+            <div><strong>B</strong><span>Back</span></div>
+
+        </div>
+
+        <div class="info-box">
+            <strong>Tip:</strong>
+            A letter followed by an apostrophe (') means turn the face
+            counter-clockwise. The number 2 means turn the face twice.
+        </div>
+
+    </section>
+
+<!-- Solving Method -->
+<section id="method" class="section light-section">
+
+    <p class="section-label">04 — BEGINNER METHOD</p>
+
+    <h2>Solve the Cube Step by Step</h2>
+
+    <p>
+        The beginner method solves the cube layer by layer. Follow the
+        steps in order and keep the cube orientation consistent while
+        performing the algorithms.
+    </p>
+
+
+    <!-- Step 1 -->
+    <article class="step">
+
+        <div class="step-number">1</div>
+
+        <div class="step-content">
+
+            <h3>Make the White Cross</h3>
+
+            <p>
+                Start by creating a white cross around the white center.
+                Each white edge must also match the colour of the center
+                piece on the adjacent side.
+            </p>
+
+            <p>
+                There is no single algorithm required for this step.
+                Instead, use simple turns to bring the four white edges
+                into the correct positions.
+            </p>
+
+            <div class="info-box">
+                <strong>Goal:</strong>
+                A white cross with all four side colours matching
+                their center pieces.
+            </div>
+
+<img src="images/white-cross.jpg"
+     alt="White cross on a Rubik's Cube"
+     class="cube-photo">
+
+        </div>
+
+    </article>
+
+
+    <!-- Step 2 -->
+    <article class="step">
+
+        <div class="step-number">2</div>
+
+        <div class="step-content">
+
+            <h3>Solve the White Corners</h3>
+
+            <p>
+                Find a white corner and place it below its correct
+                position. Hold the cube so that the corner is at the
+                bottom-right position.
+            </p>
+
+            <p>
+                Repeat the following algorithm until the corner is
+                correctly inserted.
+            </p>
+
+            <div class="algorithm">
+                R' D' R D
+            </div>
+
+            <p class="small-text">
+                Repeat the same sequence until the white sticker is
+                facing upward and the corner matches both side centres.
+            </p>
+
+            <img src="images/white-layer.jpg"
+     alt="Completed white layer"
+     class="cube-photo">
+
+        </div>
+
+    </article>
+
+
+    <!-- Step 3 -->
+    <article class="step">
+
+        <div class="step-number">3</div>
+
+        <div class="step-content">
+
+            <h3>Solve the Second Layer</h3>
+
+            <p>
+                Now solve the four edge pieces in the middle layer.
+                First find an edge on the top layer that does not contain
+                yellow.
+            </p>
+
+            <p>
+                Match the front colour of the edge with its corresponding
+                center. Then decide whether the edge needs to move to the
+                right or left.
+            </p>
+
+            <p><strong>Move the edge to the right:</strong></p>
+
+            <div class="algorithm">
+                U R U' R' U' F' U F
+            </div>
+
+            <p><strong>Move the edge to the left:</strong></p>
+
+            <div class="algorithm">
+                U' L' U L U F U' F'
+            </div>
+
+            <img src="images/second-layer.jpg"
+     alt="Completed first and second layers"
+     class="cube-photo">
+
+        </div>
+
+    </article>
+
+
+    <!-- Step 4 -->
+    <article class="step">
+
+        <div class="step-number">4</div>
+
+        <div class="step-content">
+
+            <h3>Create the Yellow Cross</h3>
+
+            <p>
+                Turn the cube so that the yellow center is on top.
+                The goal is to create a yellow cross on the top face.
+            </p>
+
+            <p>
+                Depending on whether you see a dot, an L-shape, or a
+                straight line, the algorithm may need to be performed
+                more than once.
+            </p>
+
+            <div class="algorithm">
+                F R U R' U' F'
+            </div>
+
+            <div class="info-box">
+                <strong>Remember:</strong>
+                At this stage, only the yellow cross matters. The
+                yellow corners do not need to be solved yet.
+            </div>
+
+            <img src="images/yellow-cross.jpg"
+     alt="Yellow cross on a Rubik's Cube"
+     class="cube-photo">
+
+        </div>
+
+    </article>
+
+
+    <!-- Step 5 -->
+    <article class="step">
+
+        <div class="step-number">5</div>
+
+        <div class="step-content">
+
+            <h3>Position the Yellow Edges</h3>
+
+            <p>
+                Now match the four yellow edge pieces with the centre
+                colours on the four side faces.
+            </p>
+
+            <p>
+    Hold the two matching yellow edges at the back and right.
+    If the matching edges are opposite each other, hold the cube
+    in any orientation and perform the algorithm.
+</p>
+
+<div class="algorithm">
+    R U R' U R U2 R' U
+</div>
+
+<p class="small-text">
+    You may need to perform the algorithm more than once. Rotate
+    the top layer between attempts to set up the correct position.
+</p>until all four yellow edges match their centres.
+            </p>
+
+            <img src="images/yellow-edges.jpg"
+     alt="Aligned yellow edges on a Rubik's Cube"
+     class="cube-photo">
+
+        </div>
+
+    </article>
+
+
+    <!-- Step 6 -->
+<article class="step">
+
+    <div class="step-number">6</div>
+
+    <div class="step-content">
+
+        <h3>Position the Yellow Corners</h3>
+
+        <p>
+            Now place each yellow corner into its correct position.
+            The yellow stickers do not need to face upward yet.
+        </p>
+
+        <p>
+            Find a corner that is already in the correct position
+            and hold it at the front-right-top position.
+        </p>
+
+        <div class="algorithm">
+            U R U' L' U R' U' L
+        </div>
+
+        <p class="small-text">
+            Repeat the algorithm as necessary until all four yellow
+            corners are in their correct positions.
+        </p>
+
+        <img src="images/yellow-corners.jpg"
+             alt="Yellow corners on a Rubik's Cube"
+             class="cube-photo">
+
+    </div>
+
+    </article>
+
+
+    <!-- Step 7 -->
+    <article class="step">
+
+        <div class="step-number">7</div>
+
+        <div class="step-content">
+
+            <h3>Orient the Yellow Corners</h3>
+
+            <p>
+                This is the final step. Keep the cube in the same
+                orientation and place an unsolved yellow corner at the
+                front-right-top position.
+            </p>
+
+            <div class="algorithm">
+                R' D' R D
+            </div>
+
+            <p>
+                Repeat the sequence until the yellow sticker of that
+                corner faces upward. Then turn only the top layer to
+                bring the next unsolved corner into the same position.
+            </p>
+
+            <div class="info-box">
+                <strong>Important:</strong>
+                The cube may look scrambled while doing this step.
+                Do not panic and do not rotate the entire cube. Continue
+                the sequence and the cube will eventually solve itself.
+            </div>
+
+            <img src="images/solved.jpg"
+                 alt="Solved Rubik's Cube"
+                 class="cube-photo">
+
+        </div>
+
+    </article>
+
+
+    <!-- Cheat Sheet -->
+    <div class="cheat-sheet">
+
+        <p class="section-label">QUICK REFERENCE</p>
+
+        <h3>Algorithm Cheat Sheet</h3>
+
+        <div class="cheat-grid">
+
+            <div>
+            <strong>White Corners</strong>
+            <code>R U R' U'</code>
+        </div>
+
+            <div>
+    <strong>Middle — Right</strong>
+    <code>U R U' R' U' F' U F</code>
+</div>
+
+<div>
+    <strong>Middle — Left</strong>
+    <code>U' L' U L U F U' F'</code>
+</div>
+
+<div>
+    <strong>Yellow Cross</strong>
+    <code>F R U R' U' F'</code>
+</div>
+
+<div>
+    <strong>Yellow Edges</strong>
+    <code>R U R' U R U2 R' U</code>
+</div>
+
+<div>
+    <strong>Yellow Corners</strong>
+    <code>U R U' L' U R' U' L</code>
+</div>
+
+<div>
+    <strong>Final Corners</strong>
+    <code>R' D' R D</code>
+</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- Conclusion -->
+    <section class="section conclusion">
+
+        <p class="section-label">05 — CONCLUSION</p>
+
+        <h2>Keep Practicing!</h2>
+
+        <p>
+            Solving a Rubik's Cube for the first time can seem difficult,
+            but the process becomes much easier once the basic moves and
+            algorithms are familiar.
+        </p>
+
+        <p>
+            Practice each step separately and eventually you will be able
+            to solve the complete cube without looking at the guide.
+        </p>
+
+        <a href="#introduction" class="button">Back to Top ↑</a>
+
+    </section>
+
+    <!-- About the Creator -->
+<section class="author-section">
+
+    <div class="author-content">
+
+        <p class="section-label">ABOUT THE CREATOR</p>
+
+        <h2>Created by Chand (23010104024)</h2>
+
+        <p>
+            This beginner-friendly Rubik's Cube guide was created as part
+            of a Digital Marketing assignment for the 7th semester of
+            B.Tech in Electronics & Communication Engineering.
+        </p>
+
+        <div class="author-details">
+            <span>🎓 B.Tech — Electronics & Communication Engineering</span>
+            <span>📚 7th Semester</span>
+            <span>🌐 Digital Marketing Assignment</span>
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- Footer -->
+    <footer>
+
+        <h3>CubeGuide</h3>
+
+        <p>
+            A simple beginner's guide to solving the 3×3 Rubik's Cube.
+        </p>
+
+        <p class="footer-small">
+            Created as a Digital Marketing assignment.
+        </p>
+
+    </footer>
+
+
+</body>
+</html>
