@@ -482,3 +482,37 @@ footer p {
     object-fit: cover;
     border-radius: 25px;
 }
+/* ---------- Resources Section ---------- */
+
+.resources-section {
+    padding: 70px 25px;
+    text-align: center;
+    background: #f7f7f7;
+}
+
+.resources-section > p:not(.section-label) {
+    max-width: 650px;
+    margin: 0 auto 30px;
+    color: #666;
+}
+
+.resource-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.resource-links a {
+    display: inline-block;
+    padding: 14px 20px;
+    background: #111;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.resource-links a:hover {
+    transform: translateY(-2px);
+}
